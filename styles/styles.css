@@ -19,3 +19,7 @@ html {
   border: 5px solid #f7ca6f;
   font-size: 13px;
 }
+
+#firstFoot {
+  border-top: 4px solid #f7ca6f; 
+}
