@@ -1,18 +1,67 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mindustry Community Mod</title>
     <link href="styles/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Audiowide" rel="stylesheet">
     <h2 id="topHeading" style="text-align:center">Mindustry Community Mod<h2>
   </head>
-  <body><h4 id="infoHead">About</h4>
-    <p align=justify id="firstPar"><br><br>An unofficial mindustry mod maintained and driven by the mindustry modder community. Involving their creativity and <strong>intelligence</strong> creating contents based on the theme set by the community itself. Themes are going to be changed every month.</p>
-    <br><h4 id="infoHead">Participating</h4>
-    <p align=justify id="firstPar"><br><br>You can participate by creating a pull request with creative contents according to the current theme.</p>
-    <br><br><br>
+  <body>
+    <div class="slideshow-container">
+      
+      <div class="topSlides fade">
+        <img src="assets/images/logo.png" alt="Logo" style="width:100%">
+      </div>
+      
+      <div class="topSlides fade">
+        <img src="assets/images/themes/mechmadness.png" alt="Mechanical Madness" style="width:100%">
+      </div>
+     
+    </div>
+    <br> 
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span>
+    </div>
+    <br>
+    <h4 id="infoHead">About</h4>
+    <p align=justify id="firstPar"><br>An unofficial mindustry mod maintained and driven by the mindustry modder community. Involving their creativity and <strong>intelligence</strong> creating contents based on the theme set by the community itself. Themes are going to be changed every month.</p>
+    <br>
+    <h4 id="infoHead">Participating</h4>
+    <p align=justify id="firstPar"><br>You can participate by creating a pull request with creative contents according to the current theme.</p>
+    <br>
+    <br>
+    <br>
     <footer id="firstFoot"><a href="https://discord.gg/rtzegX9"><img alt="Discord Server" src="assets/images/Discord-Logo-White.png" width=60></a>
       <a href="https://github.com/thepythonguy3/community-mod"><img alt="Repository" src="assets/images/GitHub-Mark-Light-120px-plus.png" width=65></a>
     </footer>
+    
+    <script>
+      //Stolen from W3Schools
+      //Might move this to the scripts folder soon
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("topSlides");
+      var dots = document.getElementsByClassName("dot");
+        
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+        
+      slideIndex++;
+        
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 7500); 
+      }
+    </script>
   </body>
 </html>
