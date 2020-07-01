@@ -47,20 +47,32 @@ body {
 }*/
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
-  animation-name: fade;
-  animation-duration: 2s;
+  -webkit-animation-name: fade 8s infinite;
+  animation-name: fade 8s infinite;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .3} 
-  to {opacity: 1}
+  0% {
+    opacity: 0;
+  } 
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0; 
+  }
 }
 
 @keyframes fade {
-  from {opacity: .3} 
-  to {opacity: 1}
+  0% {
+    opacity: 0;
+  } 
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0; 
+  }
 }
 
 
