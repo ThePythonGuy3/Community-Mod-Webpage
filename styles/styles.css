@@ -78,6 +78,7 @@ body {
 }
 
 #firstPar {
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   width: 400px;
   line-height: 1.35;
