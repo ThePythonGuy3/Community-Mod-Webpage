@@ -3,6 +3,14 @@ html {
   font-family: 'Audiowide', cursive;
 }
 
+* {
+  box-sizing: border-box; 
+}
+
+#slideImg {
+  vertical-align: middle;
+}
+
 .topSlides {
   display: none;
 }
