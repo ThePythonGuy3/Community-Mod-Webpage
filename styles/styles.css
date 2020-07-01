@@ -89,5 +89,6 @@ body {
 }
 
 #firstFoot {
+  background-color: rgba(0, 0, 0, 0.8);
   border-top: 4px solid #f7ca6f; 
 }
