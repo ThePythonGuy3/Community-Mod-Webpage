@@ -16,6 +16,7 @@ html {
 }
 
 .slideshow-container {
+  align-content: center;
   max-width: 1000px;
   position: relative;
   margin: auto;
