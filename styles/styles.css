@@ -1,14 +1,12 @@
 html {
   font-family: 'Audiowide', cursive;
 }
-.example::-webkit-scrollbar {
+body::-webkit-scrollbar {
   display: none;
 }
-.example {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
 body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   background-image: url("https://thepythonguy3.github.io/Community-Mod-Webpage/assets/images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
