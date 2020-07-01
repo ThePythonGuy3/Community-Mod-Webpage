@@ -1,8 +1,11 @@
 html {
-  background-image: url("https://thepythonguy3.github.io/Community-Mod-Webpage/assets/images/bg.png");
   font-family: 'Audiowide', cursive;
 }
-
+body {
+  background-image: url("https://thepythonguy3.github.io/Community-Mod-Webpage/assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
 * {
   box-sizing: border-box; 
 }
