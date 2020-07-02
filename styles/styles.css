@@ -47,8 +47,8 @@ body {
 }*/
 
 .fade {
-  -webkit-animation: fade 8s infinite;
-  animation: fade 8s infinite;
+  -webkit-animation: fade 10s infinite;
+  animation: fade 10s infinite;
 }
 
 @-webkit-keyframes fade {
