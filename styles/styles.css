@@ -16,6 +16,15 @@ body {
   box-sizing: border-box; 
 }
 
+#theme {
+  color: #f7ca6f;
+}
+
+.linkT {
+  color:  #f7ca6f;
+  text-decoration: none;
+}
+
 #slideImg {
   width: 550px;
   vertical-align: middle;
@@ -32,20 +41,6 @@ body {
   position: relative;
   margin: auto;
 }
-
-/*.active {
-   background-color: #f7ca6f;
-}*/
-
-/*.dot {
-  height: 10px;
-  width: 10px;
-  margin: 0 2px;
-  background-color: #303030;
-  border-radius: 50%;
-  display: inline-block;
-  transition: #f7ca6f 0.8s ease;
-}*/
 
 .fade {
   -webkit-animation: fade 10s infinite;
